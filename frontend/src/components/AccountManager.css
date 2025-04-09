@@ -1,0 +1,96 @@
+.account-manager {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.account-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.account-card h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.generate-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.generate-button:hover {
+  background-color: #1976d2;
+}
+
+.account-info {
+  font-size: 15px;
+}
+
+.account-info p {
+  margin: 8px 0;
+}
+
+.balance-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.refresh-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.refresh-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: rotate(180deg);
+}
+
+.refresh-button:active {
+  transform: rotate(360deg);
+}
+
+.warning {
+  color: #f44336;
+  background-color: #ffebee;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.status-message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+@media (min-width: 768px) {
+  .account-manager {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .account-card {
+    flex: 1;
+    min-width: 300px;
+  }
+} 

@@ -1,0 +1,265 @@
+.certification-manager {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.certification-form {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.certification-info {
+  margin-top: 0;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.certification-options {
+  margin: 15px 0;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.option input[type="radio"] {
+  margin-right: 10px;
+}
+
+.option label {
+  font-size: 15px;
+  color: #333;
+}
+
+.certify-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.certify-button:hover {
+  background-color: #388e3c;
+}
+
+.certify-button:disabled {
+  background-color: #a5d6a7;
+  cursor: not-allowed;
+}
+
+.warning {
+  color: #f44336;
+  background-color: #ffebee;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.certification-status {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.status-card {
+  background-color: #e8f5e9;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.status-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.status-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.certified-badge {
+  background-color: #4caf50;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.recertify-button {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.recertify-button:hover {
+  background-color: #5a6268;
+}
+
+.processing-steps {
+  margin-top: 20px;
+}
+
+.processing-steps h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 16px;
+}
+
+.step-indicator {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.step {
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #666;
+}
+
+.step.active {
+  background-color: #2196f3;
+  color: white;
+}
+
+.status-message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.signature-section {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.signature-details h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.signature-details button {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.details-content {
+  margin-top: 15px;
+}
+
+.code {
+  font-family: monospace;
+  background-color: #f5f5f5;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.collapsible {
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.collapsible h4 {
+  margin: 0;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.scrollable {
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+.ring-member, .data-row {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.ring-member:last-child, .data-row:last-child {
+  border-bottom: none;
+}
+
+.index {
+  width: 30px;
+  color: #666;
+}
+
+.address, .value {
+  flex: 1;
+  font-family: monospace;
+  word-break: break-all;
+}
+
+.tag {
+  background-color: #4caf50;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.verify-button {
+  background-color: #4a6fa5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.verify-button:hover {
+  background-color: #3a5a8a;
+}
+
+.verify-button:disabled {
+  background-color: #a0a0a0;
+  cursor: not-allowed;
+} 
